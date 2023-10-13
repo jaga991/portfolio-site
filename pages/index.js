@@ -76,7 +76,7 @@ export default function Home() {
                 Data visualization web app for FMCG client
               </h3>
               <p className="py-2">
-                A medium-size agile project done for Singapore University of Technology and Design 50.002 Service Design Studio course, implementing filtering and reactcharts for data vizualization;
+                A medium-size agile project done for Singapore University of Technology and Design 60.004 Service Design Studio course, implementing filtering and reactcharts for data vizualization;
               </p>
             </div>
             
