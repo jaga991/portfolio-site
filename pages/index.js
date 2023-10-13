@@ -5,6 +5,7 @@ import Image from 'next/image';
 import pokemonWebsite from '../public/pokemon.png';
 import selfPhoto from '../public/selfPhoto.jpg';
 import tuitionSite from '../public/tuitionSite.png'
+import dataVisual from '../public/datavisual.png'
 
 
 export default function Home() {
@@ -67,6 +68,16 @@ export default function Home() {
                 <a href='https://pokemon-memory-gri2.vercel.app/'>Live Site</a>
                 <a className='flex items-center' href='https://github.com/jaga991/Pokemon-Memory'><AiFillGithub /></a>
               </div>
+            </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <Image className='mx-auto border' src={dataVisual} width={400} height={400} />
+              <h3 className="text-3xl font-medium pt-8 pb-2  ">
+                Data visualization web app for FMCG client
+              </h3>
+              <p className="py-2">
+                A medium-size agile project done for Singapore University of Technology and Design 50.002 Service Design Studio course, implementing filtering and reactcharts for data vizualization;
+              </p>
             </div>
             
           </div>
